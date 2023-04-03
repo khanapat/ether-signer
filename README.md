@@ -10,20 +10,20 @@ See our [contribution guidelines](CONTRIBUTING.md) for more detail on searching 
 
 ## Users
 
-- [User documentation](https://docs.ethsigner.consensys.net/)
+-   [User documentation](https://docs.ethsigner.consensys.net/)
 
 ## Chat
 
-- [Discord]
+-   [Discord]
 
 ## Developers
 
-- [Contribution Guidelines](CONTRIBUTING.md)
-- [Coding Conventions](CODING-CONVENTIONS.md)
+-   [Contribution Guidelines](CONTRIBUTING.md)
+-   [Coding Conventions](CODING-CONVENTIONS.md)
 
 ## Release Notes
 
-- [Release Notes](CHANGELOG.md)
+-   [Release Notes](CHANGELOG.md)
 
 [discord]: https://discord.gg/jCk2XuYtrp
 [github issues]: https://github.com/ConsenSys/ethsigner/issues
@@ -36,6 +36,12 @@ See our [contribution guidelines](CONTRIBUTING.md) for more detail on searching 
 
 [unpack ethsigner-develop.tar.gz] unpack file ethsigner-develop.tar.gz using command -> tar -xzf ethsigner-develop.tar.gz
 
-# docker build
+# docker
 
 [docker build] : docker build -f docker/Dockerfile -t ethsigner:1.0.0 --build-arg VERSION=1.0.0 .
+[docker login] : docker login -u <user-name>
+[docker push] : docker tag && docker push
+
+# ref
+
+-   https://consensys-ethsigner-v0ih6cvlwfp.ws-us93.gitpod.io/
